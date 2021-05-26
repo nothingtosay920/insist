@@ -1,0 +1,38 @@
+/* components/avatar/avatar.wxss */
+.myavatar {
+  overflow: hidden;
+  display: block;
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 50%;
+  position: relative;
+  top: 50%;
+  left: 36%;
+  margin-bottom: 50rpx;
+}
+
+.userInfo {
+  text-align: center;
+  display: block;
+  margin-bottom: 50rpx;
+}
+
+.frame {
+  display: flex;
+  height: 120rpx;
+  
+}
+
+
+.counts {
+  flex: 1;
+  border: black solid 1rpx;
+  border-right: none;
+  
+}
+
+.nums {
+  position: relative;
+  top: 30%;
+  left: 20%;
+}

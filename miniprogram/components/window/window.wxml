@@ -1,0 +1,8 @@
+<!--components/Window/window.wxml-->
+<view>
+  <!--弥补nav-bar的高度-->
+	<view style="height: {{statusBarHeight}}px" ></view>
+  <view class="title">
+    insist
+  </view>
+</view>

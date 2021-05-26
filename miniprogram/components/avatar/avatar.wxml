@@ -1,0 +1,8 @@
+<!--components/avatar/avatar.wxml-->
+
+<view >
+  <open-data type="userAvatarUrl" class="myavatar" ></open-data>
+  <open-data type="userNickName" lang="zh_CN" class="userInfo" ></open-data>
+</view>
+
+  

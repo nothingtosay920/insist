@@ -1,0 +1,6 @@
+<!--miniprogram/pages/mine/mine.wxml-->
+<mywindow>2</mywindow>
+
+
+
+<myavatar></myavatar>

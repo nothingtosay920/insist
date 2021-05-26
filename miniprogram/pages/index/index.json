@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "mywindow": "../../components/window/window",
+    "cell": "../../components/cell/cell",
+    "van-button": "@vant/weapp/button/index"
+  }
+}

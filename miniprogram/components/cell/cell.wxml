@@ -1,0 +1,14 @@
+<!--components/cell/cell.wxml-->
+
+<view class="cell" >
+  <view>
+    <image  src="{{img}}" mode="aspectFit" ></image>
+    <view class="cell-title" >
+      {{thing1}}
+    </view>
+    <view class="cell-time" >
+      {{date2}}
+    </view>
+  </view>
+</view>
+

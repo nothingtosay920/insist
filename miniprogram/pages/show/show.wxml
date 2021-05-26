@@ -1,0 +1,17 @@
+<!--miniprogram/pages/show/show.wxml-->
+<mywindow ></mywindow>
+
+<view class="btn" >
+  <view style="height: {{statusBarHeight}}px" ></view>
+  <van-button icon="arrow-left" bindtap="return" />
+</view>
+
+<view class="imgBoard">
+  <image class="img" src="{{src}}" mode="aspectFill">
+    
+  </image>
+</view>
+
+<van-button class="deBtn" color="linear-gradient(to right, #fa8c35, #f00056)" round="true" bindtap="deleteImg">
+  删除
+</van-button>

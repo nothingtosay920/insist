@@ -1,0 +1,21 @@
+/* miniprogram/pages/show/show.wxss */
+.imgBoard {
+  margin: 0 5vw;
+}
+
+.btn {
+  position: absolute;
+  top: 10rpx;
+  margin-left: 30rpx;
+}
+
+.img {
+  height: 800rpx;
+  width: 90vw;
+  margin-bottom: 20rpx;
+}
+
+.deBtn {
+  position: relative;
+  left: 43%;
+}

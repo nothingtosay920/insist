@@ -1,0 +1,32 @@
+/* pages/index/index.wxss */
+
+.btn {
+  position: absolute;
+  top: 10rpx;
+  margin-left: 30rpx;
+}
+
+.cell {
+  display:flex;
+  flex-wrap:wrap;
+  margin: 0 5vw;
+}
+
+.first {
+  position:absolute;
+  top: 45%;
+  left: 33%;
+  display: flex;
+  flex-direction: column;
+  height: 400rpx;
+
+}
+
+.img {
+  position: relative;
+  left: 24%;
+  padding-bottom: 100rpx;
+  text-align: center;
+  height: 140rpx;
+  width: 140rpx;
+}

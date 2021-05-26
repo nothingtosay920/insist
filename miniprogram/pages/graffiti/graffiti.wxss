@@ -1,0 +1,36 @@
+.img-list {
+  margin: 0 5vw;
+  display: flex;
+}
+
+.img {
+  display: inline;
+  margin: 0 5vw;
+  width: 20vw;
+  height: 140rpx;
+}
+
+.btn {
+  position: absolute;
+  top: 10rpx;
+  margin-left: 30rpx;
+}
+
+.first {
+  position:absolute;
+  top: 45%;
+  left: 38%;
+  display: flex;
+  flex-direction: column;
+  height: 400rpx;
+
+}
+
+.img {
+  position: relative;
+  left: -20%;
+  padding-bottom: 100rpx;
+  text-align: center;
+  height: 500rpx;
+  width: 300rpx;
+}

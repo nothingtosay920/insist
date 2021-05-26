@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "mywindow": "../../components/window/window",
+    "van-button": "@vant/weapp/button/index",
+    "van-field": "@vant/weapp/field/index",
+    "van-toast": "@vant/weapp/toast/index",
+    "van-icon": "@vant/weapp/icon/index"
+  }
+}

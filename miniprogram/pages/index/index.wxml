@@ -1,0 +1,24 @@
+<!--pages/index/index.wxml-->
+<mywindow ></mywindow>
+
+
+
+<view class="btn" >
+  <view style="height: {{statusBarHeight}}px" ></view>
+  <van-button icon="plus" bindtap="myclick" />
+</view>
+
+<view class="cell" wx:if="{{list}}" >
+  <block  wx:for="{{list}}" wx:key="item">
+    <cell data-id="{{item._id}}" bindtap="myclick" thing1="{{item.data.thing1.value}}"  date2="{{item.data.timeFun}}" img="{{item.data.img}}"></cell>  
+  </block>
+</view>
+
+<view class="first" wx:if="{{mark}}">
+  <image class="img" src="../../images/icon/icon.png" mode="aspectFill" >
+  </image>
+  <van-button  bindtap="myclick" type="primary">来新建一个目标吧!</van-button>
+</view>
+<view style="height: {{statusBarHeight * 4}}px" ></view>
+
+

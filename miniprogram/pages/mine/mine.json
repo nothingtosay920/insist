@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "mywindow": "../../components/window/window",
+    "myavatar": "../../components/avatar/avatar"
+  }
+}

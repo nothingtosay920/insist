@@ -1,0 +1,81 @@
+page{
+  margin: 0px;
+  padding: 0px;
+}
+.myCanvas{
+  border: 1px solid #666;
+}
+
+.canvas_tools_block{
+  margin-top: 10rpx;
+  margin-left: 20rpx;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.canvas_tools{
+  margin-top: 10rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+}
+
+.t-item{
+  width:70rpx;
+  height: 70rpx;
+  line-height: 70rpx;
+  text-align: center;
+  border: 2rpx solid #CCC;
+  margin: 6rpx;
+  border-radius: 50%;
+  font-size: 32rpx;
+}
+
+.t-item-cur{
+  width:70rpx;
+  height: 70rpx;
+  line-height: 70rpx;
+  text-align: center;
+  margin: 12rpx;
+  border-radius: 50%;
+  font-size: 32rpx;
+  border: 4rpx solid #666;
+}
+
+.img {
+  width: 70rpx;
+  height: 70rpx;
+  display: inline;
+  margin: 12rpx;
+}
+
+.change {
+  width: 70rpx;
+  height: 50rpx;
+}
+
+.btn {
+  position: absolute;
+  top: 10rpx;
+  margin-left: 30rpx;
+}
+
+.share {
+  width: 70rpx;
+  height: 50rpx;
+  position: relative;
+  left: 10rpx;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background-size: 70rpx 50rpx;
+  background-repeat:no-repeat;
+}
+
+.share[plain] {
+  border:none;
+}
+  
+  

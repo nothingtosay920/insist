@@ -1,0 +1,41 @@
+/* pages/message/message.wxss */
+.section {
+  height: 80rpx;
+  margin: 0 40rpx;
+  border-radius: 10px;
+  line-height: 40px;
+  font-size: 20px;
+  margin-bottom: 60rpx;
+  background-color: #f0f0f4;
+}
+
+.input {
+  float: right;
+  text-align: center;
+}
+
+.m-remark {
+  margin: 0 40rpx;
+  border-radius: 10px;
+  margin-bottom: 120rpx;
+}
+
+.btn {
+  width: 240px;
+  margin: 0 auto;
+}
+
+.debtn {
+  position: absolute;
+  top: 10%;
+  left: 80%;
+}
+
+.returnBtn {
+  position: absolute;
+  top: 10rpx;
+  margin-left: 30rpx;
+}
+
+
+

@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/mine/mine",
+    "pages/message/message",
+    "pages/graffiti/graffiti",
+    "pages/board/board",
+    "pages/show/show"
+  ],
+  "window": {
+    "navigationStyle": "custom"
+  },
+  "tabBar": {
+    "custom": true,
+    "color": "#B2C8BB",
+    "selectedColor": "#DAA520",
+    "borderStyle": "black",
+    "backgroundColor": "#B2C8BB",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/images/world.png",
+        "selectedIconPath": "/images/chooseWorld.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "/images/user.png",
+        "selectedIconPath": "/images/user.png"
+      },
+      {
+        "pagePath": "pages/graffiti/graffiti",
+        "text": "涂鸦",
+        "iconPath": "/images/calendar.png",
+        "selectedIconPath": "/images/calendar.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

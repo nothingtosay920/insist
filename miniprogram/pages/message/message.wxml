@@ -1,0 +1,66 @@
+<!--pages/message/message.wxml-->
+
+<mywindow ></mywindow>
+
+<view class="returnBtn" >
+  <view style="height: {{statusBarHeight }}px" ></view>
+  <van-button  type="default" icon="arrow-left" bindtap="return"></van-button>
+</view>
+
+  <van-button round type="info" color="linear-gradient(to right, #4bb0ff, #6149f6)"  class="debtn" bindtap="deliteClick" size="normal" wx:if="{{remark}}">删除</van-button>
+
+
+
+<input class="section input" maxlength="5" placeholder="请输入想做的事" bindinput="bindChange" value="{{data.thing1.value}}" />
+
+<view class="section picker">
+  <picker mode="date" value="{{chooseDate}}" start="{{startDate}}" end="2031-11-29" bindchange="bindDateChange">
+    请选择日期
+    <view class="input">
+      <block wx-if="{{!chooseDate}}">
+        {{startDate}}
+      </block>
+      <block wx:else>
+        {{chooseDate}}
+      </block>
+      <van-icon name="arrow"  size="18px" />
+    </view>
+
+  </picker>
+</view>
+
+<view class="section">
+  <picker mode="time" value="{{chooseTime}}" start="00:00" end="24:00" bindchange="bindTimeChange">
+    请选择时间
+    <view class="input">
+      <block wx-if="{{!chooseTime}}">
+        {{startTime}}
+      </block>
+      <block wx:else>
+        {{chooseTime}}
+      </block>
+      <van-icon name="arrow"  size="18px" />
+    </view>
+  </picker>
+</view> 
+
+
+
+<view class="m-remark" >
+  <van-field
+    label="留言(可选)"
+    type="textarea"
+    placeholder="留下想说的话吧╰(￣▽￣)╭"
+    autosize
+    maxlength="25"
+    border="{{ false }}"
+    bind:blur = "messageChange"
+  />
+</view>
+
+<van-button round type="info"  class="btn" bindtap="saveClick" size="large">保存</van-button>
+
+
+
+
+

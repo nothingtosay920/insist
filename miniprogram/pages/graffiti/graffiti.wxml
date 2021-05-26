@@ -1,0 +1,22 @@
+<!--miniprogram/pages/graffiti/graffiti.wxml-->
+<mywindow></mywindow>
+<view class="btn" >
+  <view style="height: {{statusBarHeight}}px" ></view>
+  <van-button icon="plus" bindtap="myclick" />
+</view>
+
+
+<view class="img-list" >
+  <block wx:for="{{list}}" wx:key="index">
+    <image class="img" src="{{item.bigImg}}" mode="aspectFill" bindtap="showImg" data-id="{{item._id}}"></image>
+  </block>
+</view>
+
+<view class="first" wx:if="{{log}}">
+  <image class="img" src="../../images/canvas/2.png" mode="aspectFill" >
+  </image>
+  <van-button  bindtap="myclick" type="warning">来涂鸦吧!</van-button>
+</view>
+<view style="height: {{statusBarHeight * 4}}px" ></view>
+
+
